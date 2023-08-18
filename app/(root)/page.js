@@ -1,7 +1,11 @@
+//app/page.tsx
+import { UserButton } from "@clerk/nextjs";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Threds</h1>
-    </main>
+    <div>
+      <h1>Hellow</h1>
+      <UserButton afterSignOutUrl="/" />
+    </div>
   );
 }
